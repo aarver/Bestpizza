@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&display=swap");
+* {
+  font-family: "Marhey", cursive;
+}
+
+.footer {
+  height: 50vh;
+}
+
+.navbar a:hover {
+  color: #dc3534 !important;
+}
+
+.navbar {
+  margin-bottom: -55px;
+}/*# sourceMappingURL=app.component.css.map */

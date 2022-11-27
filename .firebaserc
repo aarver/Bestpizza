@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bestpizza-9dd9c": {
+      "hosting": {
+        "Bestpizzas": [
+          "bestpizza-9dd9c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bestpizza-9dd9c"
+  }
+}

@@ -1,0 +1,19 @@
+<div class="container-fluid hamburger">
+    <div class="container">
+        <div class="card w-75 mx-auto mt-5" *ngFor="let pizza of this.service.pizzak">
+            <div class="card-header">
+              {{pizza.pizzaNeve}}
+            </div>
+            <div class="card-body">
+              <blockquote>
+                <p>Pizza fajtája:{{pizza.tesztaFajtaja}}</p>
+                <p>Alapszósz: {{pizza.szosz}}</p>
+                <p>Feltétek:{{pizza.feltet}}</p>
+              </blockquote>
+            </div>
+          </div>
+
+        
+    </div>    
+</div>
+

@@ -1,0 +1,22 @@
+<div class="container-fluid hamburger">
+    <div class="container">
+        <div class="card w-75 mx-auto mt-5" *ngFor="let hamburger of this.service.hamburgerek">
+            <div class="card-header">
+              {{hamburger.hamburgerNeve}}
+            </div>
+            <div class="card-body">
+              <blockquote>
+                <p>Zsömle fajtája:{{hamburger.zsomleTipus}}</p>
+                <p>Feltétek: {{hamburger.feltet}}</p>
+                <p>Gluténmentes:{{hamburger.glutenmentes}}</p>
+              </blockquote>
+            </div>
+          </div>
+
+          
+
+
+
+    </div>    
+</div>
+
