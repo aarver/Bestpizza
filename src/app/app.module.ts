@@ -18,11 +18,10 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
-
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFireModule } from '@angular/fire/compat';
+import { AuthService } from './auth.service';
 
 
 
@@ -53,7 +52,7 @@ import { AngularFireModule } from '@angular/fire/compat';
     provideDatabase(() => getDatabase()),
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

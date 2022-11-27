@@ -3,10 +3,6 @@
   font-family: "Marhey", cursive;
 }
 
-.footer {
-  height: 50vh;
-}
-
 .navbar a:hover {
   color: #dc3534 !important;
 }

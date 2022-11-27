@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,5 +11,6 @@ import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   title = 'Bestpizzas';
   faShoppingBasket = faShoppingBasket;
+  
   
 }

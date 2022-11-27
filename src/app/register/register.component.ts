@@ -11,7 +11,7 @@ export class RegisterComponent {
   email: string = '';
   password: string = '';
 
-  constructor(private auth: AuthService) { }
+  constructor(public auth: AuthService) { }
 
   ngOnInit(): void {
   }

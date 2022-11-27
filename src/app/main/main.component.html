@@ -1,9 +1,23 @@
-<div class="container-fluid bg-dark main d-flex">
-    <div class="container d-flex align-items-center justify-content-center">
-        <button class="btn btn-danger" [routerLink]="['/login']">Belépés</button>
-        <button class="btn btn-danger ms-4" [routerLink]="['/register']">Regisztráció</button>
-        
-    </div>
+<div class="container-fluid bg-dark main">
+  <div class="container box">
+    <div class="row box pt-5">
+      <div class="col col-lg-6 col-sm-5">
+       <p>A Bestpizzas ételeit a több mint 25év tapasztalat és az alapanyagok minősége teszi különlegessé.
+         Pizza tésztánkat minden reggel frissen készítjük és kézzel nyújtjuk. Elsők között itthon csak és kizárólag kitűnő minőségű mozzarella sajtot használunk pizzáinkon.
+         
+         Az ételeket könnyedén megrendelheted, miután regisztráltál majd bejelentkeztél rendszerünkbe!</p>
+      </div>
+   </div>
+   <div class="row">
+     <div class="col col-lg-9 col-md-6 col-sm-6 mx-auto">
+       <button class="btn btn-danger" [routerLink]="['/login']">Belépés</button>
+       <button class="btn btn-danger ms-4" [routerLink]="['/register']">Regisztráció</button>
+     </div>
+     
+     
+   </div>
+  </div>
+   
 </div>
 
 <div class="container-fluid">
@@ -15,7 +29,6 @@
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email cím</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Felhasználónév</label>
